@@ -1,6 +1,6 @@
 <?php
 
-namespace tsanchev\assets;
+namespace tsanchev\cookieconsent;
 
 use \yii\web\AssetBundle;
 
