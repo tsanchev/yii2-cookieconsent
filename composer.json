@@ -1,0 +1,37 @@
+{
+    "name": "tsanchev/yii2-cookieconsent",
+    "type": "yii2-extension",
+    "description": "Yii2 asset for bower CookieConsent",
+    "keywords": [
+        "cookieconsent",
+        "asset",
+        "extension",
+        "yii2"
+    ],
+    "license": "BSD-3-Clause",
+    "support": {
+        "email": "tsanchev@gmail.com",
+        "source": "https://github.com/tsanchev/yii2-cookieconsent"
+    },
+    "authors": [
+        {
+            "name": "Anton Tsanchev",
+            "email": "tsanchev@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*",
+        "bower-asset/cookieconsent": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "tsanchev\\cookieconsent\\": ""
+        }
+    },
+    "extra": {
+        "asset-installer-paths": {
+            "npm-asset-library": "vendor/npm",
+            "bower-asset-library": "vendor/bower"
+        }
+    }
+}
