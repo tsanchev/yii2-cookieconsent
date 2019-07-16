@@ -21,6 +21,20 @@ or add
 
 to the require section of your composer.json.
 
+Add the asset in AppAsset as dependancy
+
+```php
+class AppAsset extends AssetBundle
+{
+    //...
+    public $depends = [
+        //...
+        'tsanchev\cookieconsent\CookieConsentAsset',
+    ];
+}
+```
+
+
 ## License
 
 This project is released under the terms of the BSD-3-Clause [license](LICENSE).
